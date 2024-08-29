@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Microanimations */
+.navLink {
+  position: relative;
+  transition: transform 0.3s ease-out;
+}
+
+.navLink:hover {
+  transform: translateY(-3px);
+}
+
+.button {
+  transition: transform 0.3s ease-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.featureItem,
+.testimonialItem {
+  transition: transform 0.3s ease-out;
+}
+
+.featureItem:hover,
+.testimonialItem:hover {
+  transform: translateY(-5px);
+}
+
